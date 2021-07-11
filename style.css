@@ -1,0 +1,42 @@
+.container{
+    margin: auto !important;
+    max-width:1013px !important;
+}
+
+.card-holder{
+    display: flex!important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    width: 100%;
+
+}
+
+.card{
+    margin: 20px;
+}
+
+
+@media(max-width:1005px){
+    .card-holder{
+        justify-content: center!important;
+        align-items: center!important;
+        
+    }
+
+    
+
+    .card{
+        margin: 10px;
+    }
+}
+
+@media(max-width:640px){
+    
+
+    .card{
+        margin: 3px;
+        width: 248px!important;
+
+    }
+}
